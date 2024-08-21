@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmpController {
+	
+	EmployeeRepo empRepol
+	
+	@PostMapping("/nec/emp/create")
+	public String createEmp(@RequestBody Employee emp) {
+		
+		return null;
+	}
+
+}

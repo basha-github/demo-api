@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class Sample {
+	
+	
+	public int findMax() {
+		
+		return 0;
+	}
+
+}
